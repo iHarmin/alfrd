@@ -9,6 +9,14 @@ from processing.schemas import NormalizedTransaction
 
 
 def categorize_and_validate(transaction: NormalizedTransaction) -> NormalizedTransaction:
+    """
+    Running the dummy LLM on the transaction's description, then checking if the result is actually valid or not.
+
+    Three bad outcomes to catch:
+    1. LLM returns None (either timeout orfailure)
+    2. LLM returns a hallucinated category (given in dummy_llm.py)
+    3. Description is empty (Skipping the LLM call and flag for review immediately)
+    """
     # If there's no description, skip the LLM call and flag for review immediately
     if not transaction.description.strip():
         transaction.category = None
