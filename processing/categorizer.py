@@ -20,4 +20,22 @@ def categorize_and_validate(transaction: NormalizedTransaction) -> NormalizedTra
     # Call the dummy LLM categorization function
     result = categorize_transaction(transaction.description)
 
+    if result is None:
+        # LLM failed or timed out
+        transaction.category = None
+        transaction.review_reasons.append("LLM returned null: possible timeout or failure")
+        transaction.needs_review = True
+
+    elif result not in VALID_CATEGORIES:
+        # LLM hallucinates a category that doesn't exist
+        transaction.category = None
+        transaction.review_reasons.append(
+            f"LLM returned invalid category: '{result}'"
+        )
+        transaction.needs_review = True
+
+    else:
+        # Valid category
+        transaction.category = result
+
     return transaction
