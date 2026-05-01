@@ -3,7 +3,7 @@ from typing import Optional
 from enum import Enum
 
 
-# Only valid categories the LLM should return — matches dummy_llm.py
+# Only valid categories the LLM should return — Given (dummy_llm.py)
 class Category(str, Enum):
     SOFTWARE = "SOFTWARE"
     MEALS = "MEALS"
