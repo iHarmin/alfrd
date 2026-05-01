@@ -1,0 +1,198 @@
+[
+  {
+    "source_system": "QuickBooks",
+    "tx_ref": "QB-99381A",
+    "date": "2026-03-01",
+    "memo": "GitHub Global Campus - Annual Subscription",
+    "amount": 450.00
+  },
+  {
+    "source_system": "QuickBooks",
+    "tx_ref": "QB-99382B",
+    "date": "2026-03-03",
+    "memo": "Uber Eats - Team Lunch",
+    "amount": "TBD"
+  },
+  {
+    "source_system": "QuickBooks",
+    "tx_ref": "QB-99383C",
+    "date": "2026-03-05",
+    "memo": "Vercel Hosting - March",
+    "amount": 20.00
+  },
+  {
+    "source_system": "QuickBooks",
+    "tx_ref": "QB-99384D",
+    "date": "2026-03-07",
+    "memo": "AWS EC2 - Compute Overage",
+    "amount": 310.75
+  },
+  {
+    "source_system": "QuickBooks",
+    "tx_ref": "QB-99385E",
+    "date": "2026-03-10",
+    "memo": "Salary Payment - Engineering",
+    "amount": 5000.00
+  },
+  {
+    "source_system": "QuickBooks",
+    "tx_ref": "QB-99386F",
+    "date": "2026-03-12",
+    "memo": "Notion - Team Plan",
+    "amount": -120.00
+  },
+  {
+    "source_system": "QuickBooks",
+    "tx_ref": "QB-99387G",
+    "date": "2026-03-14",
+    "memo": "Office Depot - Stationery",
+    "amount": 67.40
+  },
+  {
+    "source_system": "QuickBooks",
+    "tx_ref": "QB-99388H",
+    "date": "2026-03-17",
+    "memo": "Zoom - Monthly Subscription",
+    "amount": 149.90
+  },
+  {
+    "source_system": "QuickBooks",
+    "tx_ref": "QB-99389I",
+    "date": "2026-03-19",
+    "memo": "Delta Airlines - LOS to LHR",
+    "amount": 1200.00
+  },
+  {
+    "source_system": "QuickBooks",
+    "tx_ref": "QB-99390J",
+    "date": "2026-03-21",
+    "memo": "Salary Payment - Operations",
+    "amount": "PENDING"
+  },
+  {
+    "source_system": "QuickBooks",
+    "tx_ref": "QB-99391K",
+    "date": "2026-03-24",
+    "memo": "Figma - Seat Renewal",
+    "amount": 45.00
+  },
+  {
+    "source_system": "QuickBooks",
+    "tx_ref": "QB-99392L",
+    "date": "2026-03-26",
+    "memo": "Stripe - Processing Fees",
+    "amount": 88.20
+  },
+  {
+    "source_system": "QuickBooks",
+    "tx_ref": "QB-99393M",
+    "date": "2026-03-28",
+    "memo": "",
+    "amount": 500.00
+  },
+  {
+    "source_system": "QuickBooks",
+    "tx_ref": "QB-99394N",
+    "date": "2026-03-30",
+    "memo": "Cloudflare - Pro Plan",
+    "amount": 25.00
+  },
+  {
+    "source_system": "Xero",
+    "id": "X-10029",
+    "transactionDate": "02/03/2026",
+    "description": "Delta Airlines - YYZ to SFO",
+    "value": 850.50
+  },
+  {
+    "source_system": "Xero",
+    "id": "X-10030",
+    "transactionDate": "04/03/2026",
+    "description": "AWS Web Services - March Overage",
+    "value": "TBD"
+  },
+  {
+    "source_system": "Xero",
+    "id": "X-10031",
+    "transactionDate": "06/03/2026",
+    "description": "Figma - Team Seat Renewal",
+    "value": 45.00
+  },
+  {
+    "source_system": "Xero",
+    "id": "X-10032",
+    "transactionDate": "08/03/2026",
+    "description": "Google Workspace - March",
+    "value": 180.00
+  },
+  {
+    "source_system": "Xero",
+    "id": "X-10033",
+    "transactionDate": "11/03/2026",
+    "description": "Marriott Hotels - Client Stay",
+    "value": 620.00
+  },
+  {
+    "source_system": "Xero",
+    "id": "X-10034",
+    "transactionDate": "13/03/2026",
+    "description": "Payroll Run - March W1",
+    "value": 12000.00
+  },
+  {
+    "source_system": "Xero",
+    "id": "X-10035",
+    "transactionDate": "15/03/2026",
+    "description": "Bolt Food - Team Lunch",
+    "value": 95.30
+  },
+  {
+    "source_system": "Xero",
+    "id": "X-10036",
+    "transactionDate": "18/03/2026",
+    "description": "DigitalOcean - Droplet Hosting",
+    "value": null
+  },
+  {
+    "source_system": "Xero",
+    "id": "X-10037",
+    "transactionDate": "20/03/2026",
+    "description": "Linear - Team Plan",
+    "value": 80.00
+  },
+  {
+    "source_system": "Xero",
+    "id": "X-10038",
+    "transactionDate": "22/03/2026",
+    "description": "British Airways - LHR to JFK",
+    "value": 2100.00
+  },
+  {
+    "source_system": "Xero",
+    "id": "X-10039",
+    "transactionDate": "25/03/2026",
+    "description": "Refund - Duplicate Charge",
+    "value": -310.75
+  },
+  {
+    "source_system": "Xero",
+    "id": "X-10040",
+    "transactionDate": "27/03/2026",
+    "description": "Slack - Pro Plan Renewal",
+    "value": 87.50
+  },
+  {
+    "source_system": "Xero",
+    "id": "X-10041",
+    "transactionDate": "29/03/2026",
+    "description": "Payroll Run - March W2",
+    "value": 12000.00
+  },
+  {
+    "source_system": "Xero",
+    "id": "X-10042",
+    "transactionDate": "31/03/2026",
+    "description": "OpenAI API - Usage Fees",
+    "value": 430.10
+  }
+]
