@@ -21,6 +21,13 @@ alfrd/
 
 ## Setup
 
+### Clone the repo
+
+```bash
+git clone https://github.com/iHarmin/alfrd.git
+cd alfrd-task
+```
+
 ### Python (processing layer)
 
 ```bash
