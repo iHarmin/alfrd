@@ -25,7 +25,7 @@ alfrd/
 
 ```bash
 git clone https://github.com/iHarmin/alfrd.git
-cd alfrd-task
+cd alfrd
 ```
 
 ### Python (processing layer)
