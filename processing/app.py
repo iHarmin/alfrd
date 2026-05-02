@@ -1,4 +1,4 @@
-from fastapi import FastAPI, HTTPException
+from fastapi import FastAPI
 from processing.normalizer import normalize_transaction
 from processing.categorizer import categorize_and_validate
 from processing.schemas import ProcessingResult
