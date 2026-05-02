@@ -74,7 +74,7 @@ To save output to a file:
 ```bash
 curl -s -X POST http://localhost:3000/upload-transactions \
   -H "Content-Type: application/json" \
-  -d @sample_payload.json > output.json
+  -d @sample_payload.json | python3 -m json.tool > output.json
 ```
 
 ## How the pipeline works 

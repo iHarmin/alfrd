@@ -34,7 +34,7 @@ I needed one unified schema for transactions, no matter which ERP system they ca
 - **currency** — defaults to GBP. I confirmed this with the founder Sammi Teki since neither QuickBooks nor Xero includes a currency field in the sample data.
 - **category** — whatever the LLM returns, or null if it returned something bad.
 - **needs_review** — true if the transaction has any issue that needs a human review, false otherwise.
-- **review_reasons** — a list of strings explaining what's wrong. I made this a list (not a single string) because one transaction can have multiple issues. For example, QB-99390J has both a bad amount ("PENDING") and a failed LLM call. Both reasons show up.
+- **review_reasons** — a list of strings explaining what's wrong. I made this a list (not a single string) because one transaction can have multiple issues. For example, QB-99390J might have both, a bad amount ("PENDING") and a failed LLM call. Both reasons show up.
 
 ---
 
